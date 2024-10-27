@@ -4,49 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <title>AI recipe generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the recipe generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="Enter your ingredient"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Submit" />
-      </form>
-      <div>
-        The recipe will go here
-        <br />
-        The recipe will go here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to the recipe generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter your ingredient"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Submit" class="button" />
+        </form>
+        <div class="recipe">
+          The recipe will go here
+          <br />
+          The recipe will go here
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a
-        href="https://www.linkedin.com/in/lisa-lowagie-b8143288/"
-        target="_blank"
-      >
-        Lisa Lowagie</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/LisaLowagie/recipe-generator" target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://recipe-generator-lisa.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <footer>
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/lisa-lowagie-b8143288/"
+          target="_blank"
+        >
+          Lisa Lowagie</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/LisaLowagie/recipe-generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://recipe-generator-lisa.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/javascript.js"></script>
   </body>
 </html>
