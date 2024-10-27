@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Alice&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI recipe generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>Welcome to the recipe generator</h1>
       </header>
       <main>
-        <form action="">
+        <form action="" id="recipe-generator-form">
           <input
             type="text"
             name=""
@@ -31,11 +32,7 @@
           />
           <input type="submit" value="Submit" class="button" />
         </form>
-        <div class="recipe">
-          The recipe will go here
-          <br />
-          The recipe will go here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
