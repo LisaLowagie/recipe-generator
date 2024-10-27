@@ -17,28 +17,29 @@
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to the recipe generator</h1>
+        <h1 class="title">Lisa's recipe generator</h1>
       </header>
       <main>
-        <form action="" id="recipe-generator-form">
-          <input
-            type="text"
-            name=""
-            id="user-instructions"
-            placeholder="Enter your ingredient"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-          />
-          <input type="submit" value="I'm hungry" class="button" />
-        </form>
-        <div class="recipe" id="recipe">
-          I can give you a quick and easy recipe.
+        <div class="form-container">
+          <form action="" id="recipe-generator-form">
+            <input
+              type="text"
+              name=""
+              id="user-instructions"
+              placeholder="Enter the ingredient that is left in your fridge."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+            />
+            <input type="submit" value="I'm hungry" class="button" />
+          </form>
+          <div class="hint">i.e: Tomato, Cheese, Chocolate,...</div>
         </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
 
-      <footer>
+      <footer class="end">
         This project was coded by
         <a
           href="https://www.linkedin.com/in/lisa-lowagie-b8143288/"
